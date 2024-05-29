@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./custom.css" />  
+     <link rel="stylesheet" href="./style.css"> 
+    <title>Display, Float and Box Sizing</title>
+  </head>
+<body>
+     <h2>Float Property</h2>
+    <div id="parent">
+      <div id="item1" class="box">
+        <h2>Float : right</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ratione
+          aspernatur debitis reprehenderit ad sapiente ipsa libero. Aliquid, nam
+          laudantium!
+        </p>
+      </div>
+      <div id="item2" class="box">
+        <h2>Float : left</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ratione
+          aspernatur debitis reprehenderit ad sapiente ipsa libero. Aliquid, nam
+          laudantium!
+        </p>
+      </div>
+      <div id="item3" class="box clear">
+        <h2>Float : Clear</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ratione
+          aspernatur debitis reprehenderit ad sapiente ipsa libero. Aliquid, nam
+          laudantium!
+        </p>
+      </div>
+    </div> 
+
+    <!-- Z-index property allows you to stack the element on top of other elements and it can be used only with position property --> -->
+
+     <div id="main1">
+        <div id="item11" class="class1">Element 1</div>
+        <div id="item21" class="class1">Element 2</div>
+        <div id="item31" class="class1">Element 3</div>
+    </div> 
+
+    <div id="main2">
+        <div class="image"></div>
+        <h3>Nature Beauty</h3>
+    </div> 
+
+    <!-- Box Sizing Property 
+     1. Content Box(by default) 2. Border Box  -->
+
+    <div class="content">This box will be having width and height, also padding and border will adding on top of it.</div>
+    <div class="border">This box will take height width padding and border inclusively</div> 
+  </body>
+</html>

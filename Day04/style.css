@@ -1,0 +1,75 @@
+/* The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the page, */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#parent {
+  width: 80%;
+  height: 80vh;
+  background-color: #ffeea9;
+  margin: auto;
+}
+
+.box {
+  background-color: #6fdce3;
+  border: 2px solid grey;
+  width: 49.5%;
+  height: 25vh;
+  text-align: center;
+}
+
+#item1 {
+  float: right;
+}
+#item2 {
+    float: left;
+}
+
+#item3{
+    width: 99.5%;
+    clear: both;
+    height: 300px;
+} 
+
+#main1 {
+  width: 100%;
+  height: 100vh;
+  background-color: tomato;
+  position:relative;
+  
+}
+
+.class1 {
+  background-color: white;
+  width: 40%;
+  height: 30vh;
+  margin: 10px auto;
+  border: 1px solid black;
+  text-align: center;
+  position: absolute;
+  top:150px;
+  left:500px; 
+  
+  
+}
+
+
+#item11 {
+    z-index: 1;
+    top: 200px;
+    left: 440px;
+}
+
+#item21{
+    z-index: 2;
+    top: 250px;
+    left: 480px;
+}
+
+#item31{
+    z-index: 3;
+    top: 300px;
+    left: 520px;
+}

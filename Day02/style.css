@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&family=Khand:wght@300;400;500;600;700&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+background-color: bisque;
+
+
+}
+
+p{
+font-size:25px;
+font-weight: 500;
+font-style:italic;
+font-variant:small-caps;
+font-family: "Khand", sans-serif;
+
+line-height: 12px;
+text-align: center;
+
+}
+
+
+div{
+
+    text-align:center;
+    width:auto;
+    border-color:blue;
+    border-width:20px;
+    /* border:2px dotted red;
+    border:2px dashed green;
+    border:2px solid yellow;
+    border: 2px double beige;
+    border:3px groove grey; */
+    border-left:2px solid green;
+    border-right:2px solid rgb(179, 91, 234);
+    border-bottom:2px solid rgb(237, 122, 201);
+    border-top:2px solid rgb(245, 164, 93);
+
+/* In CSS margin ,padding are the property to display the elemnt , where margin is the space that gets applied arround the elemnt and padding is the space that gets applied between border and content */
+
+border-radius:5px 10px 6px 8px;
+padding :10px 20px 30px 30px;
+
+/* margin:40px 20px 30px 100px;
+margin:100px 100px; */
+margin :auto
+
+
+
+
+}
+img{
+    width:300px;
+    height:300px;
+    align-items: center;
+   
+    border-left:2px solid green;
+    border-right:2px solid rgb(179, 91, 234);
+    border-bottom:2px solid rgb(237, 122, 201);
+    border-top:2px solid rgb(245, 164, 93);
+    border-radius:5px 10px 6px 8px;
+
+}
+
+#first{
+
+    font-size:30px;
+    text-align:end;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-shadow:-2px -2px rgb(118, 214, 243);
+}
+
+a{
+    text-decoration: none;
+    color:rgb(232, 98, 205);
+    margin-left:500px;
+    font-size:30px;
+    color:rgb(241, 187, 105);
+
+}
+/* we have adifferent way of choosing the color for the element and they are:
+1.by name
+2. hex code
+3. rgb  
+4.hsl */
+
+
+
+
+
+
+
+
