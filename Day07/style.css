@@ -1,0 +1,85 @@
+table,tr,th,td{
+
+border:2px solid grey;
+padding:10px;
+text-align: center;
+}   
+
+table{
+margin:auto;
+width:100%;
+border-collapse:collapse;
+}
+
+tr:nth-child(even){
+    background-color: bisque;
+}
+th{
+
+    text-decoration: underline;
+}
+tr:nth-child(odd){
+    background-color: rgb(120, 240, 230);
+}
+
+
+
+/* Pseudo classes and Pseudo selectors */
+
+
+
+ol,ul{
+ 
+
+     list-style:"😐"; 
+}
+
+
+/* ul ol{ 
+    list-style: symbols(cyclic "\1F347"); 
+    }  */
+
+
+a:active{
+
+    color:black;
+}
+
+input:focus{
+
+    background-color: rgb(255, 217, 0);
+}
+a:hover{
+
+
+    background-color:blueviolet;
+}
+a:visited{
+
+    color: rgb(177, 226, 99);
+}
+
+
+div p:last-child{
+
+font-weight: 800;
+font-size: 30px;
+color:rgb(226, 174, 43);
+
+}
+
+div p::first-letter{
+
+    font-size: 40px;
+}
+
+div p:before{
+
+    content:"before text";
+    color: blueviolet;
+}
+div p:after{
+
+    content:"after text";
+    color: blueviolet;
+}

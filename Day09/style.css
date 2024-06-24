@@ -1,0 +1,270 @@
+*{
+
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* .box{
+margin:auto;
+width:200px;
+height:150px;
+background-color: red;
+border:1px solid grey;
+animation-name:changeColor;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+
+}
+
+@keyframes changeColor {
+
+    0%{
+        background-color:blueviolet;
+        transform:translateY(0)
+
+    } 
+    25%{
+        background-color:aqua;
+        transform: translateY(300px);
+
+    }
+    50%{
+        background-color:aquamarine;
+        transform:translateY(200px);
+
+
+    }
+     75%{
+         background-color:beige;
+         transform: translatex(200px);
+       
+
+
+
+}
+
+    100%{
+         background-color:brown;
+         transform: translateY(-200px);
+}
+}
+
+
+ */
+/* .box{
+    margin:auto;
+    width:200px;
+    height:150px;
+    background-color: red;
+    border:1px solid grey;
+    animation-name:rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+    
+    }
+
+
+
+@keyframes rotate {
+
+    0%{
+        background-color:blueviolet;
+        transform:rotateX(0deg);
+
+    } 
+    25%{
+        background-color:aqua;
+        transform:rotateY(30deg);
+
+    }
+    50%{
+        background-color:aquamarine;
+        transform:rotate(45deg);
+
+
+    }
+     75%{
+         background-color:beige;
+         transform:rotate(360deg);
+       
+
+
+
+}
+
+    100%{
+         background-color:brown;
+         transform:rotate(180deg);
+         transform: rotate(45deg);
+}
+} */
+/* 
+#box1{
+    font-size:10em;
+    width:200px;
+    height:150px;
+    margin:180px auto;
+   text-align:center;
+    animation-name:scale;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+.car{
+    font-size:10em;
+    width:200px;
+    height:150px;
+   text-align:center;
+    animation-name:movingcar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes movingcar{
+from {
+
+    transform:translateX(1000px);
+}
+to{
+
+    transform:translateX(10px);
+}
+
+}
+
+
+#fly{
+    font-size:10em;
+    width:200px;
+    height:150px;
+   text-align:center;
+    animation-name:fly;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes fly{
+    from {
+    
+        transform:translateX(0px);
+    }
+    to{
+    
+        transform:translatey(1000px);
+    }
+    
+    }
+
+
+
+    
+
+
+
+
+@keyframes scale{
+
+    0%,20%,40%,60%,80%,100%{
+
+        transform:scale(1);
+    }
+
+
+    10%,30%,50%,70%,90%{
+
+        transform:scale(1.5);
+    }
+}
+
+
+#bounce{
+
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background-color: bisque;
+    position: absolute;
+    bottom:0;
+    left:200px;
+    animation:bounce 2s infinite;
+}
+
+@keyframes bounce{
+    0%,20%,50%,80%,100%{
+
+        transform:translateY(0);
+    }
+
+
+    40%{
+
+        transform:translateY(-350px);
+    
+    }
+
+    60%{
+
+        transform:translateY(-100px);
+    }
+
+
+} */
+
+
+.bus{
+
+    width:200px;
+    height:100px;
+    background-color: yellow;
+    border:5px solid black;
+    border-radius:10px;
+    position:absolute;
+    bottom:15px;
+    animation:drive 5s infinite;
+}
+
+
+.wheel{
+
+    width:40px;
+    height:40px;
+    background-color: black;
+    border-radius: 50%;
+    position:absolute;
+    bottom:-20px;
+
+}
+
+
+.wheel-left{
+
+    left:20px;
+}
+
+
+.wheel-right{
+
+    right:20px;
+}
+
+@keyframes drive{
+0%{
+
+    transform:translateX(0);
+}
+100%{
+
+    transform:translateX(100vw);
+}
+
+
+
+}

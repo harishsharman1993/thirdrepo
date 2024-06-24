@@ -1,0 +1,51 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+
+
+p{
+
+    width:200px;
+    height:100px;
+    overflow: hidden; 
+   /* overflow:scroll;
+   overflow: visible; 
+   overflow:auto; */
+}
+
+img{
+width:5oopx;
+height:150px;
+margin-left:100px;
+ /* opacity will liwe between 0 to 1  and makes image look transparent according to the value */
+opacity:0.2;
+object-fit: none;
+
+}
+img:hover{
+    /* object-fit:fill;
+    object-fit:contain; */
+    object-fit:cover;
+    opacity: 1;
+}
+
+#linear{
+
+    background-image:repeating-linear-gradient(120deg,red 10%, white 10%,blue 10%) ;
+    width:100%;
+    height:150px;
+    border:2px solid red;
+}
+
+#radial{
+
+    width:100%;
+    height:150px;
+    border:2px solid red;
+    background-image:repeating-radial-gradient(circle,red, white,blue) ;
+}

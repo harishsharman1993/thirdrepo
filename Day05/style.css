@@ -1,0 +1,111 @@
+*{
+margin:0;
+padding:0;
+
+
+
+}
+
+div{
+
+background-color: aqua;
+width:500px;
+height:50px;
+/* display:block; */
+border: 2px solid yellowgreen;
+ /* display: inline;  */
+/* display: none; */
+ display: inline-block;
+}
+
+span{
+
+    background-color: bisque;
+    width:500px;
+    height:50px;
+    border: 2px dotted rgb(235, 220, 87);
+    /* visibility:none; */
+    display:block;
+}
+
+
+/* we can apply height and width to block level element but we cannot the same to inline element 
+Display will remove the elemnt  from the viewport and it wont occupy any space on document but visibility will occupy the space and make  the elemnt visible */
+
+
+#parent{
+width:90%;
+margin:auto;
+background-color: yellow;
+border:1px solid grey;
+height:90vh;
+display:flex;
+/* flex-direction: row,row-reverse,column,column-reverse; */
+flex-direction: row;
+/* justify-content:space-evenly,space-arround,space-between,start(default),end,center */
+justify-content: space-evenly;
+align-items: center;
+/* flex-wrap:nowrap,wrap,wrap-reverse; */
+flex-wrap:wrap;
+}
+
+
+
+
+/* cross axis and main axis :when direction of the flex items is row then direction of palced elements would main axis and opposite would be cros  axis,
+when direction of element is column then however the elemnts are being placed  that would be main axis and opposite would be cross axis */
+
+
+
+.items{
+
+background-color: blueviolet;
+width:70px;
+height:50px;
+border:2px solid grey;
+
+}
+
+#item1{
+
+align-self: flex-start;
+flex-grow: 4;
+
+}
+
+#item2{
+
+    align-self: flex-end;
+    
+    }
+#item3{
+
+        align-self: flex-start;
+        flex-grow:3;
+        }
+        
+#item4{
+        
+            align-self: flex-end;
+            flex-grow: 9;
+            flex-shrink: 1;
+            }
+
+#item5{
+
+    align-self:start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
